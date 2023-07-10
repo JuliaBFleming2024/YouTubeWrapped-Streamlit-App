@@ -1,2 +1,2 @@
 # YouViewer
-Access your YouTube Viewing Analytics by uploading your log files and playing with parameters! 
+Access your YouTube viewing analytics by uploading your log files and playing with parameters! 
