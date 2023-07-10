@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
 from PIL import Image
 import json
 import matplotlib.pyplot as plt
@@ -10,6 +9,8 @@ import requests
 from datetime import date, datetime
 from dateutil.parser import parse
 import uuid
+from streamlit_lottie import st_lottie
+
 
 st.set_page_config(page_title='YouViwer', page_icon=":cinema:", layout="centered")
 
@@ -71,7 +72,6 @@ lottie_upload = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_qd
 lottie_analytics = load_lottieurl("https://assets3.lottiefiles.com/private_files/lf30_khwfxgwr.json")
 lottie_typing = load_lottieurl("https://assets9.lottiefiles.com/datafiles/WIRy7Ny0KV28BJg/data.json")
 
-Logo = Image.open("images/YouViewer.png")
 
 ##### Header Section #####
 with st.container():
@@ -79,7 +79,6 @@ with st.container():
     st.subheader('Analytics for YouTube Consumers ')
     st.write('##')
     st.write('By Julia Fleming 🧸')
-    ####st.image(Logo)
 
 #### Get your Data ######
 with st.container():
